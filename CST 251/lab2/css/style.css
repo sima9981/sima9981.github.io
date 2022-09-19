@@ -1,0 +1,90 @@
+      body {
+        /*color: #DD33FF;*/
+        color:  rgba(175, 0, 175, .75);
+        /*color:  purple;*/
+
+        background-image:  url(https://cdn.pixabay.com/photo/2015/02/25/17/56/cat-649164_960_720.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }  
+
+      h1 {
+        background-color: rgba(175, 0, 175, .75);
+        color:  white;
+        text-align: center;
+        padding:  15px;
+        border-top:  10px solid black;
+        border-bottom:  10px solid gray;
+        margin:  0 0px;
+
+        overflow:  scroll;
+        width:  75%;
+        margin:  0 auto;
+        font-size: 5rem;
+        font-family: 'Sofia';
+      }
+
+      h2 {
+        color:  rgba(175, 0, 175, .75);
+      }
+
+      a {
+        color: hotpink;
+      }
+
+      ul {
+        color:  green;
+      }
+
+      ol {
+        color: red;
+      }
+
+      img {
+        border:  4px solid purple;
+        border-radius: 100px 50px; 
+        max-width:  100%;
+        height:  auto;
+        padding: 20px;
+      }
+
+      main {
+        background-color:  rgba(255, 255, 255, .3);
+        padding: 20px;
+        width: 75%;
+        margin: 0 auto;
+        font-family: 'Sofia';
+      }
+
+      footer {
+        color: black;
+        text-align: right;
+      }
+
+      legend {
+        color: white;
+        text-align: left;
+        background-color: purple;
+        border: 1px solid black;
+        padding: 2px;
+      }
+
+      button {
+        color: white;
+        background-color: purple;
+        border-left: 5px solid black;
+        border-top: 5px solid black;
+        border-right: 5px solid grey;
+        border-bottom: 5px solid grey;
+      }
+
+      label {
+        padding-right: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding-left: 3px;
+      }
+
+
+

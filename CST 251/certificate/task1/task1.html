@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSUMB Crusade Form</title>
+    <style>
+
+      body {
+        background-image: url(https://cdn.pixabay.com/photo/2018/02/26/13/13/snow-3183034_960_720.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #description {
+        color: #1455DD;
+        text-align: center;
+      }
+
+      h1 {
+        background-color: #1455DD;
+        color: white;
+        outline-color: #555555;
+      }
+
+      h2 {
+        color: #1455DD;
+      }
+
+      form {
+        background-color: rgba(255, 255, 255, .50);
+
+      }
+
+      main {
+        padding: 35px;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <h1 id="title"> CSUMB Survey </h1>
+
+  <p id="description"> 
+    Enter your information for the Elder Otter God
+  </p>
+
+  <form id="survey-form">
+
+    <label id="name-label">
+      Enter name:
+      <input id="name" type="text" placeholder="name" required>
+      <br>
+    </label>
+  
+    <label id="email-label">
+      Enter email:
+      <input id="email" type="email" placeholder="email" required>
+      <br>
+    </label>
+  
+    <label id="number-label">
+      Enter number:
+      <input id="number" type="number" value="number-value" placeholder="number" min="0" max="100">
+      <br>
+    </label>
+
+    Enter title:
+    <select id="dropdown">
+      <option value="unspecified">Unspecified</option>
+      <option value="otter-lord">Otter Lord</option>
+      <option value="otter-recruit">Otter Recruit</option>
+    </select>
+    <br>
+
+
+      Select a class:
+      <br>
+      <label><input id="Barbarian" type="radio" value="barbarian" name="class"> Barbarian </label>
+      <label><input id="cleric" type="radio" value="cleric" name="class"> Cleric </label>
+
+      <br>
+      <label><input id="Ranger" type="radio" value="ranger" name="class"> Ranger </label>
+      <label><input id="Wizard" type="radio" value="wizard" name="class"> Wizard </label>
+      <br>
+
+
+      Select a role:
+      <br>
+      <label><input id="Tank" type="radio" value="tank" name="role"> Tank </label>
+      <label><input id="Healer" type="radio" value="healer" name="role"> Heal </label>
+
+      <br>
+      <label><input id="Artillary" type="radio" value="artillary" name="role">Artillary </label>
+      <label><input id="Caster" type="radio" value="caster" name="role"> Caster </label>
+      <br>
+
+
+      Select a preferable task(s):
+      <br>
+      <label><input id="Conquer" type="checkbox" value="conquer-value"> Conquer </label>
+      <label><input id="Defend" type="checkbox" value="defend-value"> Defend </label>
+
+      <br>
+      <label><input id="Strategize" type="checkbox" value="strategize-value"> Strategize </label>
+      <label><input id="Support" type="checkbox" value="support-value"> Support </label>
+      <br>
+
+
+    <textarea> You will soon join us, otter comrade. Tell us your story. </textarea>
+    <br>
+
+    <input id="submit" type="submit">
+  
+  </form>
+
+
+  </body>
+</html>
