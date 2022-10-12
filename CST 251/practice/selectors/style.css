@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	  image {
+		width: 300px;
+	  }
+
+	  h1, h2 {
+		  background-color: mediumpurple
+	  }
+	  
+	  nav ul {
+	  	  background-color: pink;
+	  }
+	  
+	  #cd-img {
+		  border-top-left-radius: 40px;
+		  border-top-right-radius: 40px;
+	  }
+	  
+	  #cs-img {
+		  border-bottom-left-radius: 40px;
+		  border-bottom-right-radius: 40px;		  
+	  }
+	  
+	  .minorProgram-img {
+		  border: 10px double mediumpurple;
+	  }
+	  
+	  .degreeProgram-img {
+		  border: 10px double pink;
+	  }
+	  
+	  span.highlight {
+		  font-size: 1.5rem;
+		  background-color: cyan
+	  }
