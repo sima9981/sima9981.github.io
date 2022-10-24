@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>HTML/CSS Guide</title>
+
+  <style>
+
+	@media (max-width: 800px) {
+  		#navbar {
+    		background-color: white;
+    		position: absolute;
+    		top: 0;
+    		padding: 0;
+    		margin: 0;
+   		 	width: 100%;
+    		max-height: 275px;
+    		border: none;
+    		z-index: 1;
+    		border-bottom: 2px solid;
+  		}
+
+  		#main-doc {
+    		position: relative;
+			left: 10px;
+    		margin-right: 100px;
+    		margin-top: 100px;
+  		}
+}
+  </style>
+
+</head>
+
+<body>
+<nav id="navbar">
+    <header>Sections</header>
+	<ul>
+		<li><a class="nav-link" href="#introduction">Introduction</a></li>
+		<li><a class="nav-link" href="#html">HTML</a></li>
+		<li><a class="nav-link" href="#tags">Tags</a></li>
+		<li><a class="nav-link" href="#css">CSS</a></li>
+		<li><a class="nav-link" href="#properties">Properties</a></li>
+	</ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <p>The purpose of this guide is to introduce you to beginner-level material for understanding the basics of HTML and CSS</p>
+      <p>Here, you will find valuable information. These are topics that will be covered:</p>
+      <ul>
+		<li>Defining HTML/CSS</li>
+        <li>HTML tags</li>
+        <li>CSS properties</li>
+      </ul>
+    </section>
+	<br>
+	  
+    <section class="main-section" id="html">
+      <header>HTML</header> 
+      <p>HTML stands for HyperText Markup Language. This is what allows you to display information. The information you see on this site is from its HTML.</p>
+      <p>This is what a typical starting point for an HTML file looks like: </p>
+      <code> &lt;!DOCTYPE html&gt; &lt;html lang="en"&gt; &lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; &lt;title&gt;HTML/CSS Guide&lt;/title&gt;
+	  </code>
+    </section>
+	<br>
+	  
+    <section class="main-section" id="tags">
+      <header>Tags</header> 
+      <p>HTMLs utilize various tags that allow ways to display information. </p>
+	  <p>There are many tags that HTMLs use, but these are the basics:</p>
+      <ul>
+        <li><b>&lt;h1&gt; to &lt;h6&gt; : </b>Variants of headings&nbsp; &nbsp;</li>
+        <li><b>&lt;img&gt; : </b> Shows an image</li>
+        <li><b>&lt;body&gt; : </b> Where the information is displayed</li>
+        <li><b>&lt;a&gt; : </b> Hyperlinks that take you to another source </li>
+      </ul>
+      <p>This is an &lt;h1&gt; tag in use. Notice the ending &lt;/h1&gt;. Most tags will have an end tag. In between these tags is the text you wish to display.</p>
+      <code>&lt;h1&gt; Hello, User! &lt;/h1&gt;</code>
+      <p>Some tags, however, require more information. This &lt;img&gt; tag, for example, requires an image source. This is noted by the "src". Simply put the link address or image location for the src to display the image.</p>
+      <code>&lt;img src="img.jpg"&gt;</code>
+    </section>
+	<br>
+	  
+    <section class="main-section" id="css">
+      <header>CSS</header>
+      <p>CSS stands for Cascading Style Sheets. While HTML displays information, CSS organizes and stylizes that information. This will require a separate file known as a css file. You can also use a &lt;style&gt; tag to put your properties, but CSS is the preferable method.</p>
+      <p>This is the content you may see in a CSS file:</p>
+      <code>h1 { font-size: 20px } body { background-color: red } img { padding: 20px } </code>
+    </section>
+	<br>
+	  
+    <section class="main-section" id="properties">
+      <header>Properties</header>
+      <p>CSS will contain properties, and these properties will change the organization of the information and how they are presented to the user. Here are some of the few things CSS properties can change depending on the element:</p>
+	  <ul>
+	  	<li>Color</li>
+	  	<li>Size</li>
+	  	<li>Position</li>
+	  	<li>Font</li>
+	  </ul>
+      <p>To add properties, we must first have an element we are modifying along with its curly brackets. We will put the properties within these curly brackets.</p>
+      <code>h1 {  }</code>
+      <p>Here, we will change the color of the heading 1 text. To do so, add the property "color:" and a value of your choosing that is a color. Note, however, that there are different methods for choosing color, such as rgba() and hexidecimal color code. Simply using the color name is a viable option.&nbsp;&nbsp; </p>
+      <code>h1 { color: blue }</code>
+    </section>
+	<br>
+  </main>
+</body>
+</html>
